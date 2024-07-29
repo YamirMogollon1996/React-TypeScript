@@ -1,0 +1,322 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+  
+
+.StyleComponentGrid{
+  border: 1px solid black;
+  border-radius: 5px;
+  
+}  
+
+.ComponeteGrid{
+  /* border: 1px solid rgb(196, 9, 9); */
+  grid-template-columns: repeat(4 ,1fr);
+  text-align: center;
+}
+* {
+font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+  font-weight: 500;
+}
+  .Ubicamos{
+
+    /* border: 1px solid black; */
+    text-align: center;
+    padding: 1em;
+    
+  }  
+
+.Card-header{
+  background-color: #000000;
+  color: #eee;
+}
+.centerImagen{
+  /* padding-top: 1em; */
+  /* border: 1px solid yellow  ; */
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.CentroText {
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: auto;
+}
+.CentroText input {
+  height: 50px;
+  /* padding: 1em; */
+  border-radius: 5px;
+  margin-top: 1em;
+  /* margin-right: 1em; */
+  padding-left: 1em;
+  border: none;
+  border: 1px solid #eee;
+  border-radius: 5px;
+  outline: none;
+}
+
+.CentroText textarea {
+  height: 240px;
+  /* padding: 1em; */
+  margin-top: 1em;
+  border: none;
+  border: 1px solid #eee;
+  outline: none;
+}
+
+.but {
+  padding: 1em;
+  background-color: black;
+  color: whitesmoke;
+  margin-top: 1em;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.Top {
+  padding: 1em;
+  background-color: #efefed;
+  color: none;
+  border: none;
+  border-radius: 5px;
+  color: #000;
+  cursor: pointer;
+  background-color: whitesmoke;
+}
+.Raya {
+  border: 1px solid yellowgreen;
+  display: flex;
+  justify-content: space-around;
+}
+
+.TablaStripes {
+  /* border: 1px solid black; */
+  text-align: center;
+  width: 80%;
+  margin: auto;
+  /* padding: 1em; */
+}
+.TablaStripes thead {
+  border: 1px solid rgb(235, 228, 228);
+  background-color: #eee;
+  border: 1px solid blue;
+  padding: 1em;
+  padding: 1em;
+}
+
+.table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 1em 0;
+}
+
+.table th,
+.table td {
+  border: 1px solid #ddddddf1;
+  padding: 8px;
+  text-align: left;
+}
+
+.table th {
+  background-color: #f2f2f2;
+}
+
+.table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+.center {
+  text-align: center;
+}
+.paises {
+  /* border: 1px solid red; */
+  /* width: 80%; */
+  display: flex;
+  justify-content: center;
+  height: 100px;
+  align-items: center;
+}
+
+.paises button {
+  height: 50%;
+  padding: 1em;
+  cursor: pointer;
+  border: #ddddddf1;
+  border-radius: 5px;
+  background-color: #000;
+  color: white;
+  margin-left: 1em;
+}
+.paises input {
+  height: 50%;
+  /* padding: 1em; */
+  padding-left: 1em;
+  border: 1px solid gray;
+  border-radius: 6px;
+  outline: none;
+  margin-left: 1em;
+}
+
+.BUt {
+  padding: 0.4em;
+  /* border: 1px solid rgb(235, 226, 226); */
+  border-radius: 5px;
+  /* margin: .3em; */
+  cursor: pointer;
+}
+
+.Center {
+  /* display: flex; */
+  /* border: 1px solid gray; */
+}
+.Buton {
+  padding: 1em;
+  border-radius: 5px;
+  background-color: #000000;
+  color: #eee;
+}
+
+.Rayas {
+  /* border: 1px solid red; */
+  text-align: center;
+}
+.Rayas > * {
+  margin: 1em;
+  width: 100px;
+}  
+
+
+.FooterBody{
+  padding: 1em;
+  background-color: #000000;
+}  
+.FooterBody button{
+  background-color: rgb(28, 231, 38);
+  color: whitesmoke;
+  width: 100px;
+  margin-right: 1em;
+  padding: 1em;
+  border-radius: 5px;
+  color: #000000;
+  cursor: pointer;
+}
+.Petry {
+  /* border: 1px solid rgba(233, 230, 230, 0.616); */
+  display: grid;
+  width: 60%;
+  margin: auto;
+  /* padding: 1em; */
+  border-radius: 5px;
+  /* grid-template-columns: repeat(3,1fr); */
+}
+.CenterContainer {
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(6, 1fr);
+}
+.CenterContainer > * {
+  width: 50px;
+}
+.remove {
+  /* padding: 1em; */
+  border-radius: 10px;
+  background-color: rgb(50, 204, 11);
+  color: #eee;
+  width: 80%;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  border: none;
+  font-weight: 900;
+  cursor: pointer;
+}  
+
+.Select{
+  height: 50px;
+  width: 100px;
+}  
+
+.But{
+  height: 50px;
+  padding: 1em;
+  margin: 1em;
+  border-radius: 10px;
+  background-color: #070000;
+  color: #eee;
+  cursor: pointer;
+}
+
+.remove:hover {
+  background-color: rgba(16, 43, 124, 0.664);
+}
+.Fitrobuscar {
+  width: 80%;
+  margin: auto;
+  height: 50px;
+  margin: 1em;
+  padding-left: 1em;
+  font-size: 1em;
+  outline: none;
+  border-radius: 5px;
+}  
+.Data{
+  width: 80%;
+  height: 50px;
+  margin-left: calc(100% - 90%) ; 
+  border-radius: 5px;
+  padding-left: 1em;
+  font-size: 20px;
+  outline: none;
+  /* float: center; */
+}
+.Fitrobuscar:hover {
+  box-shadow: 0 0 20px rgba(0, 0, 255, 0.404);
+  border: rgba(0, 0, 255, 0.404);
+}
+
+.border {
+  background-color: #000;
+  color: #eee;
+  padding: 1em;
+  width: 100px;
+  border-radius: 5px;
+}
+
+.Componente {
+  /* border: 1px solid black; */
+  
+  display: grid;
+grid-template-columns: repeat( auto-fit, minmax(350px, 1fr) );
+  place-content: center;
+  place-items: center;
+  padding: 1em;
+  text-align: center;
+  width: 80%;
+  margin: auto;
+  gap: 20px;  
+
+}
+
+.imagenes {
+  border: 1px solid gray;
+  padding: 1em;
+  background-color: #333;
+  color: #eee;
+  border-radius: 5px;
+  margin-bottom: 1em;
+}
+.filtro{
+  /* border: 1px solid gray; */
+  margin: 0 2em;
+}
+
+.ComponeteGrid{
+  /* border: 1px solid rgb(196, 9, 9); */
+  display: grid;
+  width: 80%;
+  margin: auto;
+  grid-template-columns: repeat(4,1fr); 
+  gap: 20PX;
+  padding: 1EM;
+
+}
